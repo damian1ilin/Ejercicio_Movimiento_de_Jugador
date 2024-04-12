@@ -1,3 +1,65 @@
-[gd_scene format=3 uid="uid://ds5xdm0fsh86d"]
+[gd_scene load_steps=3 format=3 uid="uid://ds5xdm0fsh86d"]
+
+[ext_resource type="PackedScene" uid="uid://ob5dxp4ghule" path="res://Escenas/plataforma.tscn" id="1_yxjst"]
+[ext_resource type="PackedScene" uid="uid://c0epie6p7q1g4" path="res://Escenas/jugador.tscn" id="2_vvfsr"]
 
 [node name="Escena Testing" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Jugador" parent="." instance=ExtResource("2_vvfsr")]
+position = Vector2(-254, -241)
+scale = Vector2(0.205454, 0.207112)
+
+[node name="Mapa" type="Node" parent="."]
+
+[node name="Plataforma4" parent="Mapa" instance=ExtResource("1_yxjst")]
+position = Vector2(2.84217e-14, -318)
+scale = Vector2(9.92865, 0.0409875)
+
+[node name="Plataforma5" parent="Mapa" instance=ExtResource("1_yxjst")]
+position = Vector2(4.76837e-07, 322)
+scale = Vector2(9.92865, 0.0409875)
+
+[node name="Plataforma11" parent="Mapa" instance=ExtResource("1_yxjst")]
+position = Vector2(-285, 41)
+scale = Vector2(2.66131, 0.481185)
+
+[node name="Plataforma12" parent="Mapa" instance=ExtResource("1_yxjst")]
+position = Vector2(86, 112)
+scale = Vector2(2.02599, 0.19763)
+
+[node name="Plataforma6" parent="Mapa" instance=ExtResource("1_yxjst")]
+position = Vector2(127, 296)
+rotation = -0.175057
+scale = Vector2(2.52865, 0.0409875)
+
+[node name="Plataforma8" parent="Mapa" instance=ExtResource("1_yxjst")]
+position = Vector2(367, 207)
+rotation = -0.531913
+scale = Vector2(2.52865, 0.0409875)
+
+[node name="Plataforma7" parent="Mapa" instance=ExtResource("1_yxjst")]
+position = Vector2(556, -18)
+rotation = -1.22478
+scale = Vector2(2.52865, 0.0409875)
+
+[node name="Plataforma2" parent="Mapa" instance=ExtResource("1_yxjst")]
+position = Vector2(-575, 3.8147e-06)
+rotation = 1.57079
+scale = Vector2(5.19, 0.05)
+
+[node name="Plataforma9" parent="Mapa" instance=ExtResource("1_yxjst")]
+position = Vector2(-445, 127)
+rotation = 1.57079
+scale = Vector2(1.83654, -0.354546)
+
+[node name="Plataforma10" parent="Mapa" instance=ExtResource("1_yxjst")]
+position = Vector2(-327, -106)
+rotation = 1.57079
+scale = Vector2(1.91, 0.05)
+
+[node name="Plataforma3" parent="Mapa" instance=ExtResource("1_yxjst")]
+position = Vector2(578, 3.8147e-06)
+rotation = 1.57079
+scale = Vector2(5.19, 0.05)
