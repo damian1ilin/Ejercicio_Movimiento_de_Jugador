@@ -21,7 +21,7 @@ var isgrounded = true
 func _physics_process(_delta):
 
 	# Linea de Debug para mostrar propiedades en el pj
-	$Label.text = "Speed: "  + str(velocity.x) + "\n Jump Buffer: " + str(jump_buffer_counter) + "\n IsOnWall: " + str(is_on_wall())
+	# $Label.text = "Speed: "  + str(velocity.x) + "\n Jump Buffer: " + str(jump_buffer_counter) + "\n IsOnWall: " + str(is_on_wall())
 
 	if Input.is_key_pressed(KEY_SHIFT):
 		max_speed = max_speed_sprint

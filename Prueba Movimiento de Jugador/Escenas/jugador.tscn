@@ -16,8 +16,8 @@ texture = ExtResource("1_vnmoc")
 shape = SubResource("RectangleShape2D_hq1eq")
 
 [node name="Label" type="Label" parent="."]
-offset_left = -334.0
-offset_top = -253.0
-offset_right = 333.0
-offset_bottom = -64.0
+offset_left = -616.0
+offset_top = -343.0
+offset_right = 51.0
+offset_bottom = -154.0
 theme_override_font_sizes/font_size = 100

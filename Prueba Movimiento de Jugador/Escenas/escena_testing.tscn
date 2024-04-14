@@ -8,7 +8,7 @@
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Jugador" parent="." instance=ExtResource("2_vvfsr")]
-position = Vector2(-254, -241)
+position = Vector2(-216, -219)
 scale = Vector2(0.205454, 0.207112)
 
 [node name="Mapa" type="Node" parent="."]
@@ -36,16 +36,16 @@ scale = Vector2(2.02599, 0.19763)
 [node name="Plataforma6" parent="Mapa" instance=ExtResource("1_yxjst")]
 position = Vector2(127, 296)
 rotation = -0.175057
-scale = Vector2(2.52865, 0.0409875)
+scale = Vector2(4.11212, 0.027303)
 
 [node name="Plataforma8" parent="Mapa" instance=ExtResource("1_yxjst")]
-position = Vector2(367, 207)
-rotation = -0.531913
-scale = Vector2(2.52865, 0.0409875)
+position = Vector2(376, 84)
+rotation = -1.57079
+scale = Vector2(3.76865, 0.400989)
 
 [node name="Plataforma7" parent="Mapa" instance=ExtResource("1_yxjst")]
-position = Vector2(556, -18)
-rotation = -1.22478
+position = Vector2(117, -48)
+rotation = -1.57079
 scale = Vector2(2.52865, 0.0409875)
 
 [node name="Plataforma2" parent="Mapa" instance=ExtResource("1_yxjst")]
@@ -61,7 +61,7 @@ scale = Vector2(1.83654, -0.354546)
 [node name="Plataforma10" parent="Mapa" instance=ExtResource("1_yxjst")]
 position = Vector2(-327, -106)
 rotation = 1.57079
-scale = Vector2(1.91, 0.05)
+scale = Vector2(2.06147, 0.609998)
 
 [node name="Plataforma3" parent="Mapa" instance=ExtResource("1_yxjst")]
 position = Vector2(578, 3.8147e-06)
