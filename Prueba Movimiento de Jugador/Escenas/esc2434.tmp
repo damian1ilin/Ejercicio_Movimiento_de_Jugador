@@ -10,6 +10,10 @@
 [node name="Jugador" parent="." instance=ExtResource("2_vvfsr")]
 position = Vector2(-254, -241)
 scale = Vector2(0.205454, 0.207112)
+max_speed = null
+gravity = null
+jump_force = null
+acceleration = null
 
 [node name="Mapa" type="Node" parent="."]
 
@@ -26,11 +30,7 @@ position = Vector2(-285, 41)
 scale = Vector2(2.66131, 0.481185)
 
 [node name="Plataforma12" parent="Mapa" instance=ExtResource("1_yxjst")]
-position = Vector2(117, 121)
-scale = Vector2(2.02599, 0.19763)
-
-[node name="Plataforma13" parent="Mapa" instance=ExtResource("1_yxjst")]
-position = Vector2(-196, 202)
+position = Vector2(86, 112)
 scale = Vector2(2.02599, 0.19763)
 
 [node name="Plataforma6" parent="Mapa" instance=ExtResource("1_yxjst")]

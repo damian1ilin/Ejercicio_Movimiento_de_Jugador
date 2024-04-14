@@ -3,8 +3,8 @@
 [ext_resource type="Texture2D" uid="uid://tc5sd5nydj5d" path="res://icon.svg" id="1_vnmoc"]
 [ext_resource type="Script" path="res://Escenas/jugador.gd" id="1_vtpky"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_54sxu"]
-radius = 65.123
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hq1eq"]
+size = Vector2(126, 128)
 
 [node name="Jugador" type="CharacterBody2D"]
 script = ExtResource("1_vtpky")
@@ -13,4 +13,11 @@ script = ExtResource("1_vtpky")
 texture = ExtResource("1_vnmoc")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CircleShape2D_54sxu")
+shape = SubResource("RectangleShape2D_hq1eq")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -334.0
+offset_top = -253.0
+offset_right = 333.0
+offset_bottom = -64.0
+theme_override_font_sizes/font_size = 100
